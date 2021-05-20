@@ -19,34 +19,36 @@
   <body>
     <!--Шапка сайта-->
     <header>
-      <div class="container">
+      <div class="container nav">
         <a href="./index.html" class="logo first"><span class="logo-accent">Web</span>Studio</a>
         <nav>
           <ul class="site-nav">
-            <li><a href="" class="nav-item active">Студия</a></li>
-            <li><a href="./portfolio.html" class="nav-item">Портфолио</a></li>
-            <li><a href="" class="nav-item">Контакты</a></li>
+            <li class="item"><a href="" class="nav-item active">Студия</a></li>
+            <li class="item"><a href="./portfolio.html" class="nav-item">Портфолио</a></li>
+            <li class="item"><a href="" class="nav-item">Контакты</a></li>
           </ul>
         </nav>
-        <ul>
-          <li>
+        <ul class="main-header-contacts">
+          <li class="item">
             <a href="mailto:info@devstudio.com" class="header-contacts">info@devstudio.com</a>
           </li>
-          <li><a href="tel:+380961111111" class="header-contacts">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a href="tel:+380961111111" class="header-contacts">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
     <main>
       <!--Герой-->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <h1 class="hero-title">Эффективные решения </br>для вашего бизнеса</h1>
         <button type="button" class="button">Заказать услугу</button>
       </section>
       <!--Преимущества-->
       <section class="section">
         <div class="container">
           <h2 class="hidden-header">Преимущества</h2>
-          <ul>
+          <ul class="flex-item">
             <li>
               <h3 class="title">Внимание к деталям</h3>
               <p>
@@ -76,36 +78,25 @@
       <section class="section no-padding">
         <div class="container">
           <h2 class="section-header">Чем мы занимаемся</h2>
-          <ul>
+          <ul class="flex-item">
             <li>
-              <a href="">
-                <img
-                  src="./images/website_development.jpg"
-                  alt="Разработка сайта"
-                  width="370"
-                  height="294"
-                />
-              </a>
+              <img
+                src="./images/website_development.jpg"
+                alt="Разработка сайта"
+                width="370"
+                height="294"
+              />
             </li>
             <li>
-              <a href=""
-                ><img
-                  src="./images/application_development.jpg"
-                  alt="Разработка приложений"
-                  width="370"
-                  height="294"
-                />
-              </a>
+              <img
+                src="./images/application_development.jpg"
+                alt="Разработка приложений"
+                width="370"
+                height="294"
+              />
             </li>
             <li>
-              <a href="">
-                <img
-                  src="./images/design.jpg"
-                  alt="Дизайнерские решения"
-                  width="370"
-                  height="294"
-                />
-              </a>
+              <img src="./images/design.jpg" alt="Дизайнерские решения" width="370" height="294" />
             </li>
           </ul>
         </div>
@@ -114,8 +105,8 @@
       <section class="section team">
         <div class="container">
           <h2 class="section-header">Наша команда</h2>
-          <ul>
-            <li>
+          <ul class="flex-item">
+            <li class="team-box">
               <img
                 src="./images/ihor_demianenko.jpg"
                 alt="Игорь Демьяненко"
@@ -125,12 +116,12 @@
               <h3 class="team-member">Игорь Демьяненко</h3>
               <p class="position">Product Designer</p>
             </li>
-            <li>
+            <li class="team-box">
               <img src="./images/olha_repina.jpg" alt="Ольга Репина" width="270" height="260" />
               <h3 class="team-member">Ольга Репина</h3>
               <p class="position">Marketing</p>
             </li>
-            <li>
+            <li class="team-box">
               <img
                 src="./images/nikolai_tarasov.jpg"
                 alt="Николай Тарасов"
@@ -140,7 +131,7 @@
               <h3 class="team-member">Николай Тарасов</h3>
               <p class="position">Product Designer</p>
             </li>
-            <li>
+            <li class="team-box">
               <img
                 src="./images/michail_ermakov.jpg"
                 alt="Михаил Ермаков"

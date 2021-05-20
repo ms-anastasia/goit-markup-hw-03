@@ -18,20 +18,22 @@
   <body>
     <!--Шапка сайта-->
     <header>
-      <div class="container">
+      <div class="container nav">
         <a href="./index.html" class="logo first"><span class="logo-accent">Web</span>Studio</a>
         <nav>
           <ul class="site-nav">
-            <li><a href="./index.html" class="nav-item">Студия</a></li>
-            <li><a href="" class="nav-item active">Портфолио</a></li>
-            <li><a href="" class="nav-item">Контакты</a></li>
+            <li class="item"><a href="./index.html" class="nav-item">Студия</a></li>
+            <li class="item"><a href="" class="nav-item active">Портфолио</a></li>
+            <li class="item"><a href="" class="nav-item">Контакты</a></li>
           </ul>
         </nav>
-        <ul>
-          <li>
+        <ul class="main-header-contacts">
+          <li class="item">
             <a href="mailto:info@devstudio.com" class="header-contacts">info@devstudio.com</a>
           </li>
-          <li><a href="tel:+380961111111" class="header-contacts">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a href="tel:+380961111111" class="header-contacts">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
@@ -39,16 +41,22 @@
       <section class="section">
         <div class="container">
           <!--Фильтр-->
-          <ul>
+          <ul class="selection">
             <li><button type="button" class="filter all">Все</button></li>
-            <li><button type="button" class="filter">Веб-сайты</button></li>
-            <li><button type="button" class="filter">Приложения</button></li>
+            <li>
+              <button type="button" class="filter">Веб-сайты</button>
+            </li>
+            <li>
+              <button type="button" class="filter">Приложения</button>
+            </li>
             <li><button type="button" class="filter">Дизайн</button></li>
-            <li><button type="button" class="filter">Маркетинг</button></li>
+            <li>
+              <button type="button" class="filter">Маркетинг</button>
+            </li>
           </ul>
           <!--Примеры работ-->
           <h1 class="hidden-header">Наши работы</h1>
-          <ul>
+          <ul class="examples">
             <li>
               <img src="./images/website.jpg" alt="website" width="370" height="294" />
               <h2 class="portfolio-title">Технокряк</h2>
