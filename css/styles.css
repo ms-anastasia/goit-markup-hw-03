@@ -177,7 +177,6 @@ header {
 /* Чем мы занимаемся */
 .flex-item {
   display: flex;
-  /* justify-content: space-between; */
 }
 .flex-item > .work-sample:not(:first-child),
 .flex-item > .team-box:not(:first-child) {
