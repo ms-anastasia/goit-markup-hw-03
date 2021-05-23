@@ -42,90 +42,108 @@
         <div class="container">
           <!--Фильтр-->
           <ul class="selection">
-            <li><button type="button" class="filter all">Все</button></li>
-            <li>
+            <li class="selection-filter"><button type="button" class="filter all">Все</button></li>
+            <li class="selection-filter">
               <button type="button" class="filter">Веб-сайты</button>
             </li>
-            <li>
+            <li class="selection-filter">
               <button type="button" class="filter">Приложения</button>
             </li>
-            <li><button type="button" class="filter">Дизайн</button></li>
-            <li>
+            <li class="selection-filter"><button type="button" class="filter">Дизайн</button></li>
+            <li class="selection-filter">
               <button type="button" class="filter">Маркетинг</button>
             </li>
           </ul>
           <!--Примеры работ-->
           <h1 class="hidden-header">Наши работы</h1>
-          <ul class="examples">
-            <li>
+          <ul class="boxes">
+            <li class="portfolio-boxes">
               <img src="./images/website.jpg" alt="website" width="370" height="294" />
-              <h2 class="portfolio-title">Технокряк</h2>
-              <p class="portfolio-descr">Веб-сайт</p>
+              <div class="box-content">
+                <h2 class="portfolio-title">Технокряк</h2>
+                <p class="portfolio-descr">Веб-сайт</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-boxes">
               <img
                 src="./images/poster.jpg"
                 alt="poster New Orlean vs Golden Star"
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-              <p class="portfolio-descr">Дизайн</p>
+              <div class="box-content">
+                <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+                <p class="portfolio-descr">Дизайн</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-boxes">
               <img
                 src="./images/seafood_application.jpg"
                 alt="seafood restaurant logo"
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-title">Ресторан Seafood</h2>
-              <p class="portfolio-descr">Приложение</p>
+              <div class="box-content">
+                <h2 class="portfolio-title">Ресторан Seafood</h2>
+                <p class="portfolio-descr">Приложение</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-boxes">
               <img src="./images/headphones.jpg" alt="headphones" width="370" height="294" />
-              <h2 class="portfolio-title">Проект Prime</h2>
-              <p class="portfolio-descr">Маркетинг</p>
+              <div class="box-content">
+                <h2 class="portfolio-title">Проект Prime</h2>
+                <p class="portfolio-descr">Маркетинг</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-boxes">
               <img src="./images/boxes.jpg" alt="boxes logo" width="370" height="294" />
-              <h2 class="portfolio-title">Проект Boxes</h2>
-              <p class="portfolio-descr">Приложение</p>
+              <div class="box-content">
+                <h2 class="portfolio-title">Проект Boxes</h2>
+                <p class="portfolio-descr">Приложение</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-boxes">
               <img
                 src="./images/inspiration_has_no_borders.jpg"
                 alt="logo inspiration has no borders"
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-title">Inspiration has no Borders</h2>
-              <p class="portfolio-descr">Веб-сайт</p>
+              <div class="box-content">
+                <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                <p class="portfolio-descr">Веб-сайт</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-boxes">
               <img
                 src="./images/limited_edition.jpg"
                 alt="limited edition magazine"
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-title">Издание Limited Edition</h2>
-              <p class="portfolio-descr">Дизайн</p>
+              <div class="box-content">
+                <h2 class="portfolio-title">Издание Limited Edition</h2>
+                <p class="portfolio-descr">Дизайн</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-boxes">
               <img src="./images/lab_project.jpg" alt="lab project logo" width="370" height="294" />
-              <h2 class="portfolio-title">Проект LAB</h2>
-              <p class="portfolio-descr">Маркетинг</p>
+              <div class="box-content">
+                <h2 class="portfolio-title">Проект LAB</h2>
+                <p class="portfolio-descr">Маркетинг</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-boxes">
               <img
                 src="./images/growing_business.jpg"
                 alt="growing business website"
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-title">Growing Business</h2>
-              <p class="portfolio-descr">Приложение</p>
+              <div class="box-content">
+                <h2 class="portfolio-title">Growing Business</h2>
+                <p class="portfolio-descr">Приложение</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -136,12 +154,14 @@
       <div class="container">
         <a href="./index.html" class="logo second"><span class="logo-accent">Web</span>Studio</a>
         <address>
-          <ul>
+          <ul class="footer-nav">
             <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
-            <li>
-              <a href="mailto:info@example.com" class="footer-contacts margin">info@example.com</a>
+            <li class="footer-link">
+              <a href="mailto:info@example.com" class="footer-contacts">info@example.com</a>
             </li>
-            <li><a href="tel:+380991111111" class="footer-contacts">+38 099 111 11 11</a></li>
+            <li class="footer-link">
+              <a href="tel:+380991111111" class="footer-contacts">+38 099 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>
