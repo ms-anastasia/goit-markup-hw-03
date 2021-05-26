@@ -73,6 +73,8 @@ header {
 
 .logo.first {
   color: var(--logo-text-colour);
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo-accent {
   color: var(--accent-colour);
@@ -117,6 +119,8 @@ header {
   font-weight: 500;
   line-height: 1.14px;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-contacts:hover,
 .header-contacts:focus {
@@ -131,10 +135,10 @@ header {
 .hero {
   background-color: var(--footer-background);
   text-align: center;
-}
-.hero-content {
   padding-top: 200px;
   padding-bottom: 200px;
+}
+.hero-content {
   padding-left: 237px;
   padding-right: 237px;
 }
