@@ -217,6 +217,9 @@ header {
 .team-content {
   padding-top: 30px;
   padding-bottom: 30px;
+  border-color: var(--shadow-color);
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
 }
 .team-member {
   color: var(--secondary-text-colour);
